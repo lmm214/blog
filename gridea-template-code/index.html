@@ -1,0 +1,555 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gridea 主题常用代码片段 | 林小沐</title>
+<meta name="description" content="不问明天，悠然浪费" />
+<link rel="shortcut icon" href="https://i.immmmm.com/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://i.immmmm.com/styles/main.css">
+
+
+<script src="https://cdn.jsdelivr.net/gh/lmm214/blog/media/js/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lmm214/blog/media/js/masonry.pkgd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lmm214/blog/media/js/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lmm214/blog/media/js/pace.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lmm214/blog/media/js/view-image.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lmm214/blog/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lmm214/blog/media/js/lately.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lmm214/blog/media/js/func.js"></script>
+
+    <meta name="referrer" content="never">
+    <meta name="description" content="20200313 注：后续更新转移至 https://immmmm.com/gridea-template-code/
+全站 Site
+首页：themeConfig.domain
+站点名：themeConfig.siteName
+站点描述：..." />
+    <meta name="keywords" content="Gridea" />
+    <script src="https://i.immmmm.com/media/js/waterfall.min.js"></script>
+    <script src="https://i.immmmm.com/media/js/prism.min.js"></script>
+  </head>
+  <body>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
+        </div>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://i.immmmm.com"><img src="/media/images/logoo.png" alt=""></a>
+            </div>
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://i.immmmm.com" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/books" class="menu">
+                      阅读
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/movies" class="menu">
+                      观影
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/friends" class="menu">
+                      朋友
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
+        </div>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1612493746140" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://i.immmmm.com/post-images/gridea-template-code.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2019-12-16 15:14"><i class="fa fa-calendar"></i><span class="lately">2019-12-16 15:14</span></time>
+              
+              <a href="https://i.immmmm.com/gridea-template-code/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/gridea-template-code/"> </span>
+              </a>
+              <span id="/gridea-template-code/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://i.immmmm.com/tag/gridea/" class="ctag ctag-0 ctag-gridea" aria-label="">Gridea</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">Gridea 主题常用代码片段</h1>
+            </div>
+          </div>
+        </div>  
+
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>20200313 注：后续更新转移至 <a href="https://immmmm.com/gridea-template-code/">https://immmmm.com/gridea-template-code/</a></p>
+<h3 id="全站-site">全站 Site</h3>
+<p>首页：<code>themeConfig.domain</code><br>
+站点名：<code>themeConfig.siteName</code><br>
+站点描述：<code>themeConfig.siteDescription</code><br>
+全站文章数：<code>site.posts.length</code><br>
+全站标签数：<code>site.tags.length</code></p>
+<!-- more -->
+<pre><code class="language-js">共 &lt;%= site.posts.length %&gt; 篇日志
+</code></pre>
+<h3 id="菜单">菜单</h3>
+<pre><code class="language-js">&lt;% menus.forEach(function(menu) { %&gt;
+    &lt;a href=&quot;&lt;%= menu.link %&gt;&quot;&gt;&lt;%= menu.name %&gt;&lt;/a&gt;
+&lt;% }); %&gt;
+</code></pre>
+<h3 id="网页标题优化-sitetitle">网页标题优化 siteTitle</h3>
+<pre><code class="language-js">&lt;%- include('./includes/head', { siteTitle: themeConfig.siteName }) %&gt;
+&lt;%- include('./includes/head', { siteTitle: `${post.title} | ${themeConfig.siteName}` }) %&gt;
+&lt;%- include('./includes/head', { siteTitle: `${tag.name} | ${themeConfig.siteName}` }) %&gt;
+&lt;%- include('./includes/head', { siteTitle: `文章归档 | ${themeConfig.siteName}` }) %&gt;
+&lt;%- include('./includes/head', { siteTitle: `标签列表 | ${themeConfig.siteName}` }) %&gt;
+</code></pre>
+<h3 id="文章-post">文章 Post</h3>
+<p>标题：<code>post.title</code><br>
+链接：<code>post.link</code></p>
+<p>文章标题：</p>
+<pre><code class="language-js">&lt;a href=&quot;&lt;%= post.link %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;
+</code></pre>
+<p>文章SEO</p>
+<pre><code class="language-html">&lt;meta name=&quot;description&quot; content=&quot;&lt;%- post.description %&gt;&quot; /&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;&lt;%- post.tags.map(tag =&gt; tag.name).join(',') %&gt;&quot; /&gt;
+</code></pre>
+<p>发布时间：<code>post.dateFormat</code><br>
+显示相对时间：</p>
+<pre><code class="language-js">&lt;%= site.utils.moment(post.date).locale('zh-cn').fromNow() %&gt;
+</code></pre>
+<p>标签名：<code>post.tags</code><br>
+文章阅读时间：<code>stats.text</code> //3 min read<br>
+文章字数：<code>stats.words</code> //3000</p>
+<p>显示全部标签名，多个用顿号分开：</p>
+<pre><code class="language-js">&lt;% post.tags.forEach(function(tag, index) { %&gt;
+    &lt;a href=&quot;&lt;%= tag.link %&gt;&quot;&gt;
+        &lt;%= tag.name %&gt;
+        &lt;% if (index !== post.tags.length - 1) { %&gt;
+            、
+        &lt;% } %&gt;
+    &lt;/a&gt;
+&lt;% }); %&gt;
+</code></pre>
+<p>显示单个标签名：</p>
+<pre><code class="language-js">&lt;% if (post.tags[0]) { %&gt;
+    &lt;a href=&quot;&lt;%= post.tags[0].link %&gt;&quot;&gt;&lt;%= post.tags[0].name %&gt;&lt;/a&gt;
+&lt;% }; %&gt;
+</code></pre>
+<p>封面图：<code>post.feature</code></p>
+<pre><code class="language-js">&lt;% if (themeConfig.showFeatureImage &amp;&amp; post.feature) { %&gt;
+    &lt;img src=&quot;&lt;%= post.feature %&gt;&quot;&gt;
+&lt;% } %&gt;
+</code></pre>
+<p>文章摘要：<code>post.abstract</code> 显示文章 <code>&lt;!--more--&gt;</code> 前的内容<br>
+文章全文：<code>post.content</code></p>
+<pre><code class="language-js">&lt;% if (post.abstract) { %&gt;
+    &lt;%- post.abstract %&gt;
+    &lt;a href=&quot;&lt;%= post.link %&gt;&quot;&gt;阅读全文&lt;/a&gt;
+&lt;% }else{ %&gt;
+    &lt;%- post.content %&gt;
+    &lt;a href=&quot;&lt;%= post.link %&gt;#comments&quot;&gt;发表评论&lt;/a&gt;
+&lt;% } %&gt;
+</code></pre>
+<p>结合以上两者，如果有设置more标签，则显示部分和“阅读全文”链接，若无则全文显示并显示“发表评论”链接。</p>
+<h3 id="导航-pagination">导航 Pagination</h3>
+<p>上下篇日志：</p>
+<pre><code class="language-js">&lt;% if (post.prevPost) { %&gt;
+    &lt;a href=&quot;&lt;%= post.prevPost.link %&gt;&quot;&gt;&lt;%= post.prevPost.title %&gt;&lt;/a&gt;
+&lt;% } %&gt;
+&lt;% if (post.nextPost) { %&gt;
+    &lt;a href=&quot;&lt;%= post.nextPost.link %&gt;&quot;&gt;&lt;%= post.nextPost.title %&gt;&lt;/a&gt;
+&lt;% } %&gt;
+</code></pre>
+<p>文章列表：</p>
+<pre><code class="language-js">&lt;% if (pagination.prev) { %&gt;
+    &lt;a href=&quot;&lt;%= pagination.prev %&gt;&quot;&gt;上一页&lt;/a&gt;
+&lt;% } %&gt;
+&lt;% if (pagination.next) { %&gt;
+    &lt;a href=&quot;&lt;%= pagination.next %&gt;&quot;&gt;下一页&lt;/a&gt;
+&lt;% } %&gt;
+</code></pre>
+<h3 id="实用-jquery-代码">实用 jQuery 代码</h3>
+<pre><code class="language-js">//新窗口打开外链
+var parse_url = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;
+var location_href = window.location.href.replace(parse_url,'$3');
+$('.post-excerpt a:not(:has(img)),.post-content a:not(:has(img)),.author-name a').hover(function() {
+    var this_href = $(this).attr('href');
+    var replace_href = this_href.replace(parse_url,'$3');
+    if ( this_href != replace_href &amp;&amp; location_href != replace_href){$(this).attr('target','_blank');}
+});
+</code></pre>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              <article class="prev grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://lmm.elizen.me/images/2020/01/my-friends-5.jpg');"></div>
+                 <a href="https://i.immmmm.com/gridea-templates-friends/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2020-01-02 20:46">2020-01-02 20:46</time>
+                  <h4 class="title white no-margin">三步创建 Gridea 友情链接页</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://i.immmmm.com/media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://lmm.elizen.me/images/2019/11/puti.png');"></div>
+                 <a href="https://i.immmmm.com/gridea-theme-puti/" class="full-link"></a>
+                 <div class="info">
+                  <time datetime="2019-11-26 21:28">2019-11-26 21:28</time>
+                  <h4 class="title white no-margin">Gridea Theme Puti</h4>
+                </div>
+                 <span class="epcl-button red">
+                  <img src="https://i.immmmm.com/media/images/right-arrow.svg" width="15" alt="Left Arrow">
+                </span>
+                <div class="overlay"></div>
+              </article>
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                <div class="clear"></div>
+<script>
+jQuery(document).ready(function($){
+    $('.vemoji-btn').text('😀');
+    $("#comments").on('click', 'span.vat',function(){
+        $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        $('textarea#veditor').focus();
+    })
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-200}, 600);
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+})
+</script>
+
+              </div>
+            
+
+            </div>
+          </div>
+      </main>
+
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://i.immmmm.com/xi-er-dun-2021/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://lmm.elizen.me/images/2021/02/xed-6.jpeg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2021-02-05 10:26">2021-02-05 10:26</time>
+                      <h4 class="title usmall">
+                        <a href="https://i.immmmm.com/xi-er-dun-2021/">希尔顿“豪华”游</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://i.immmmm.com/metro-into-town/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://lmm.elizen.me/images/2020/12/town-1.jpeg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-12-27 08:25">2020-12-27 08:25</time>
+                      <h4 class="title usmall">
+                        <a href="https://i.immmmm.com/metro-into-town/">乘地下龙入城</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://i.immmmm.com/ban-shan-ban-shui-2020/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://lmm.elizen.me/images/2020/12/bsbs-5.jpeg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-12-13 18:38">2020-12-13 18:38</time>
+                      <h4 class="title usmall">
+                        <a href="https://i.immmmm.com/ban-shan-ban-shui-2020/">半山伴水伴佳人</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://i.immmmm.com/tag/dong-qian-hu/" class="ctag ctag-0 ctag-dong-qian-hu" aria-label="">东钱湖</a>
+                    
+                      <a href="https://i.immmmm.com/tag/qin-ai-de/" class="ctag ctag-1 ctag-qin-ai-de" aria-label="">亲爱的</a>
+                    
+                      <a href="https://i.immmmm.com/tag/wang-hong/" class="ctag ctag-2 ctag-wang-hong" aria-label="">网红</a>
+                    
+                      <a href="https://i.immmmm.com/tag/gong-yuan/" class="ctag ctag-3 ctag-gong-yuan" aria-label="">公园</a>
+                    
+                      <a href="https://i.immmmm.com/tag/foods/" class="ctag ctag-4 ctag-foods" aria-label="">美食</a>
+                    
+                      <a href="https://i.immmmm.com/tag/le-gao/" class="ctag ctag-5 ctag-le-gao" aria-label="">乐高</a>
+                    
+                      <a href="https://i.immmmm.com/tag/zhi-wu-yuan/" class="ctag ctag-6 ctag-zhi-wu-yuan" aria-label="">植物园</a>
+                    
+                      <a href="https://i.immmmm.com/tag/gao-da/" class="ctag ctag-7 ctag-gao-da" aria-label="">高达</a>
+                    
+                      <a href="https://i.immmmm.com/tag/gridea/" class="ctag ctag-8 ctag-gridea" aria-label="">Gridea</a>
+                    
+                      <a href="https://i.immmmm.com/tag/wen-ling/" class="ctag ctag-9 ctag-wen-ling" aria-label="">温岭</a>
+                    
+                      <a href="https://i.immmmm.com/tag/an-ji/" class="ctag ctag-10 ctag-an-ji" aria-label="">安吉</a>
+                    
+                      <a href="https://i.immmmm.com/tag/feng-hua/" class="ctag ctag-11 ctag-feng-hua" aria-label="">奉化</a>
+                    
+                      <a href="https://i.immmmm.com/tag/zu-qiu/" class="ctag ctag-12 ctag-zu-qiu" aria-label="">足球</a>
+                    
+                      <a href="https://i.immmmm.com/tag/zhou-shan/" class="ctag ctag-13 ctag-zhou-shan" aria-label="">舟山</a>
+                    
+                      <a href="https://i.immmmm.com/tag/guang-zhou/" class="ctag ctag-14 ctag-guang-zhou" aria-label="">广州</a>
+                    
+                      <a href="https://i.immmmm.com/tag/xiang-shan/" class="ctag ctag-15 ctag-xiang-shan" aria-label="">象山</a>
+                    
+                      <a href="https://i.immmmm.com/tag/yu-yao/" class="ctag ctag-16 ctag-yu-yao" aria-label="">余姚</a>
+                    
+                      <a href="https://i.immmmm.com/tag/sheng-ri/" class="ctag ctag-17 ctag-sheng-ri" aria-label="">生日</a>
+                    
+                      <a href="https://i.immmmm.com/tag/shang-hai/" class="ctag ctag-18 ctag-shang-hai" aria-label="">上海</a>
+                    
+                      <a href="https://i.immmmm.com/tag/sha-men/" class="ctag ctag-19 ctag-sha-men" aria-label="">厦门</a>
+                    
+                      <a href="https://i.immmmm.com/tag/tai-wan/" class="ctag ctag-20 ctag-tai-wan" aria-label="">台湾</a>
+                    
+                      <a href="https://i.immmmm.com/tag/li-jiang/" class="ctag ctag-21 ctag-li-jiang" aria-label="">丽江</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
+
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://i.immmmm.com/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">林小沐</a></h4>
+                    <p class="founder">不问明天，悠然浪费</p>
+                    <div class="social">
+                      
+                          
+                            <a href="https://github.com/lmm214" class="translate-effect" target="_blank"><i class="fa fa-github"></i></a>
+                        
+                      
+                          
+                            <a href="https://twitter.com/linmumu" class="translate-effect" target="_blank"><i class="fa fa-twitter"></i></a>
+                        
+                      
+                        
+                      
+                          
+                            <a href="https://telegram.me/linmumu" class="translate-effect" target="_blank"><i class="fa fa-telegram"></i></a>
+                        
+                      
+                          
+                            <a href="https://i.immmmm.com/atom.xml" class="translate-effect" target="_blank"><i class="fa fa-feed"></i></a>
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="logo">
+          <a href="https://i.immmmm.com"><img src="/media/images/gridea.png" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 40 篇文章
+          <br/>
+          Theme <a href="https://i.immmmm.com/gridea-theme-breek/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
+        </a>
+    </footer>
+
+    <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+    <div class="clear"></div>
+
+        
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/valine/1.3.10/Valine.Pure.min.js"></script>
+<script>
+    new Valine({
+        el: '#comments',
+        appId: 'LHRje4WThFCYPsRWd3zNSFuU-MdYXbMMI' ,
+        appKey: '6o0yozDsx1CMb0Gyr2hbKOhv',
+        pageSize: 30,
+        placeholder: '既然来了，那就留个痕迹吧~',
+        visitor: true // 阅读量统计
+    })
+</script>
+    
+      
+    <script src="https://i.immmmm.com/media/js/functions-post.js"></script>
+
+    </div>
+    <!-- end: #wrapper -->
+  </body>
+</html>
