@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://i.immmmm.com</id>
     <title>林小沐</title>
-    <updated>2021-02-05T02:56:34.384Z</updated>
+    <updated>2021-02-19T13:25:11.001Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://i.immmmm.com"/>
     <link rel="self" href="https://i.immmmm.com/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://i.immmmm.com/images/avatar.png</logo>
     <icon>https://i.immmmm.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 林小沐</rights>
+    <entry>
+        <title type="html"><![CDATA[古城散漫半日]]></title>
+        <id>https://i.immmmm.com/ci-cheng-2021/</id>
+        <link href="https://i.immmmm.com/ci-cheng-2021/">
+        </link>
+        <updated>2021-02-19T13:12:13.000Z</updated>
+        <content type="html"><![CDATA[<p>坐上家门口的4号线，一路清闲。</p>
+<p><photos><img src="https://lmm.elizen.me/images/2021/02/cicheng-1.jpeg" alt="cicheng-1" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-2.jpeg" alt="cicheng-2" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-3.jpeg" alt="cicheng-3" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-4.jpeg" alt="cicheng-4" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-5.jpeg" alt="cicheng-5" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-6.jpeg" alt="cicheng-6" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-7.jpeg" alt="cicheng-7" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-8.jpeg" alt="cicheng-8" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-9.jpeg" alt="cicheng-9" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/cicheng-10.jpeg" alt="cicheng-10" loading="lazy"></photos></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[年后第一吹]]></title>
+        <id>https://i.immmmm.com/ningbo-botanical-garden-2021/</id>
+        <link href="https://i.immmmm.com/ningbo-botanical-garden-2021/">
+        </link>
+        <updated>2021-02-18T11:15:23.000Z</updated>
+        <summary type="html"><![CDATA[<p>带上小本本，植物园一路吹风一路“写生”。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>带上小本本，植物园一路吹风一路“写生”。</p>
+<!-- more -->
+<p><photos><img src="https://lmm.elizen.me/images/2021/02/zwy-8.jpg" alt="zwy-8" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/zwy-7.jpeg" alt="zwy-7" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/zwy-6.jpeg" alt="zwy-6" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/zwy-5.jpeg" alt="zwy-5" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/zwy-4.jpeg" alt="zwy-4" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/zwy-3.jpeg" alt="zwy-3" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/zwy-2.jpeg" alt="zwy-2" loading="lazy"><img src="https://lmm.elizen.me/images/2021/02/zwy-1.jpg" alt="zwy-1" loading="lazy"></photos></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[希尔顿“豪华”游]]></title>
         <id>https://i.immmmm.com/xi-er-dun-2021/</id>
@@ -558,58 +581,6 @@ $('.post-excerpt a:not(:has(img)),.post-content a:not(:has(img)),.author-name a'
     <img src="https://lmm.elizen.me/wx.jpg" alt="微信打赏" />
     <figcaption>微信打赏</figcaption>
 </figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hi，Gridea]]></title>
-        <id>https://i.immmmm.com/hi-gridea/</id>
-        <link href="https://i.immmmm.com/hi-gridea/">
-        </link>
-        <updated>2019-11-10T16:27:42.000Z</updated>
-        <summary type="html"><![CDATA[<p>Gridea 主页：<a href="https://gridea.dev/">https://gridea.dev/</a></p>
-<p><a href="https://lmm.elizen.me/images/2019/10/gridea-app.png"><img src="https://lmm.elizen.me/images/2019/10/gridea-app.png"></a></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>Gridea 主页：<a href="https://gridea.dev/">https://gridea.dev/</a></p>
-<p><a href="https://lmm.elizen.me/images/2019/10/gridea-app.png"><img src="https://lmm.elizen.me/images/2019/10/gridea-app.png"></a></p>
-<!-- more -->
-<h3 id="特性">特性</h3>
-<p>特性茫茫多，对自己来说以下几点比较中意：</p>
-<ul>
-<li>多平台精致客户端，优雅的码字；</li>
-<li>如丝般发到 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> ；</li>
-<li>可自定义源文件夹，网盘同步随时写。</li>
-<li>……</li>
-</ul>
-<h3 id="踩坑">踩坑</h3>
-<p>建议优先看这里：<a href="https://gridea.dev/docs/faq.html">https://gridea.dev/docs/faq.html</a></p>
-<p>自己踩到以下几点：</p>
-<ul>
-<li>没装 CommandLineTools，失败；（终端：xcode-select --install）</li>
-<li>coding 密钥策略改变，token 无效，失败；（改用密码）</li>
-<li>https://i.immmmm.com 后面没有 / 斜杠；</li>
-<li>……</li>
-</ul>
-<h3 id="期许">期许</h3>
-<ul>
-<li>更多的发文方式（目前只有一种客户端点下“同步”），如网盘增加一个md，自动发布；</li>
-<li>更多的发布平台（pages 好使也不好使），尤其对自己有服务器的；</li>
-<li>更多的内置资源，这得时间积累，看好 <strong>Gridea</strong> ！</li>
-</ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[温岭网红民宿自驾游]]></title>
-        <id>https://i.immmmm.com/wenling-travel-2019/</id>
-        <link href="https://i.immmmm.com/wenling-travel-2019/">
-        </link>
-        <updated>2019-07-26T02:22:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>不知不觉臭小子幼儿园已读了一年，平日爷爷奶奶带着，他们同我们一样“上班式”，我们去单位，他们来我们家。辛苦大半年，一个月前讨论好定下这家民宿。从定下后的期待，一眨眼，现已度假归来。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>不知不觉臭小子幼儿园已读了一年，平日爷爷奶奶带着，他们同我们一样“上班式”，我们去单位，他们来我们家。辛苦大半年，一个月前讨论好定下这家民宿。从定下后的期待，一眨眼，现已度假归来。</p>
-<!-- more -->
-<p><a href="http://qiinn.cn/">栖衡石舍</a> 的栖衡，出自《诗•陈风•衡门》：“衡门之下，可以栖迟。” 两天两夜体验下来，这不是一家普通的民宿。老板的团队在追求文化内涵同时仍然极力保留着民宿的细节体验。独占小山头的无敌海景、全天的特色冷饮供应、早餐随意进出用餐、专人管家一对一服务、家常菜和当地隐藏菜单……对于个人来时候，几天的美式现磨咖啡早中晚去点，都免费，亲切感倍增！</p>
-<p>渔村嘛，大部分时间都在酒店打发。酒店下方是金沙滩15一人，到处都是小碎石不舒服。次日开车到洞下沙滩，真是翻过大山大海，从山脚到山头再过隧道继续如此，最终是半山腰平台停车，45°斜坡步行十分钟才到。不过体验到洞下沙子的细腻，也是值了。周边嘛，没啥景点。乘爸妈和小的午睡，去了网红地七彩小箬村，拍拍照骗。第二天上午去了长屿硐天，被其买票方式所折服，按下不语。</p>
-<p><photos><img src="https://lmm.elizen.me/images/2019/10/wl-1.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-2.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-3.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-4.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-5.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-6.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-7.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-8.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-9.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-10.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-11.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-12.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-14.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-15.jpg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-16.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/wl-17.jpeg" alt="" loading="lazy"></photos></p>
 ]]></content>
     </entry>
 </feed>
