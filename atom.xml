@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://i.immmmm.com</id>
     <title>林小沐</title>
-    <updated>2021-02-19T13:25:11.001Z</updated>
+    <updated>2021-04-06T14:04:21.265Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://i.immmmm.com"/>
     <link rel="self" href="https://i.immmmm.com/atom.xml"/>
@@ -10,6 +10,26 @@
     <logo>https://i.immmmm.com/images/avatar.png</logo>
     <icon>https://i.immmmm.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 林小沐</rights>
+    <entry>
+        <title type="html"><![CDATA[人间最美四月天]]></title>
+        <id>https://i.immmmm.com/hangzhou-2021/</id>
+        <link href="https://i.immmmm.com/hangzhou-2021/">
+        </link>
+        <updated>2021-04-06T13:34:34.000Z</updated>
+        <summary type="html"><![CDATA[<p>清明第一天扫墓挖笋一整天，累趴。第二天一早出门牙齿复查，刚结束当家的说想出去走走，想去杭州。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>清明第一天扫墓挖笋一整天，累趴。第二天一早出门牙齿复查，刚结束当家的说想出去走走，想去杭州。</p>
+<!-- more -->
+<p>额，在走回家路中基本确定行程。到家携程上先订好晚上最晚的回程动车，再订了12点多点的出发班次。</p>
+<p>一个小书包，放了Switch、充电宝和臭小子的厚外套，出门！</p>
+<p>火车站麦当劳解决中饭，一个小时不到到杭州，转一号线地铁6站15分钟左右到西湖龙翔站，分分钟就看到了西湖！</p>
+<p><photos><img src="https://lmm.elizen.me/images/2021/04/hz-2.jpeg" alt="hz-2" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-3.jpeg" alt="hz-3" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-4.jpeg" alt="hz-4" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-1.jpeg" alt="hz-1" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-5.jpeg" alt="hz-5" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-6.jpeg" alt="hz-6" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-7.jpeg" alt="hz-7" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-8.jpeg" alt="hz-8" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-9.jpeg" alt="hz-9" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-10.jpeg" alt="hz-10" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-11.jpeg" alt="hz-11" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-12.jpeg" alt="hz-12" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/hz-13.jpeg" alt="hz-13" loading="lazy"></photos></p>
+<p>一路沿着西湖边向南走，路边给臭小子买了冰淇淋，围观了知味观的现做糕点，拍了典型的游客照……</p>
+<p>看着连公交车都被堵的还不如11路快，感叹自己明智啊，没有自驾！走走停停，5点不到走到了西湖大道边上的网红餐厅，环境OK，牛排M5也过得去。</p>
+<p>一看时间还早，拿出手机改签回程动车时间，在杭州火车站又逛了会儿。</p>
+<p>这样的不着急的旅途还是头一次，感叹科技，让城市之间穿梭如同做普通公交一般，估计臭小子对200多公里外的杭州感觉就在家边，比较穿城或者周边景区开个车也得个把小时。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[古城散漫半日]]></title>
         <id>https://i.immmmm.com/ci-cheng-2021/</id>
@@ -504,83 +524,6 @@ $('.post-excerpt a:not(:has(img)),.post-content a:not(:has(img)),.author-name a'
 <li>社交图标和评论到 Gridea 客户端中修改：主题--自定义配置。</li>
 <li>感谢主题原作者 CaiCai。🤘</li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gridea Theme Breek (v0.3.2)]]></title>
-        <id>https://i.immmmm.com/gridea-theme-breek/</id>
-        <link href="https://i.immmmm.com/gridea-theme-breek/">
-        </link>
-        <updated>2019-11-17T13:19:04.000Z</updated>
-        <summary type="html"><![CDATA[<p>移植于WP的同名主题 Breek <a href="http://estudiopatagon.com/themes/wordpress/breek/">（点我预览）</a>，已被 <a href="https://fehey.com/">@海岛心hey</a> 盖戳 「sao」 。少年，此时不sao，更待何时！！！</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>移植于WP的同名主题 Breek <a href="http://estudiopatagon.com/themes/wordpress/breek/">（点我预览）</a>，已被 <a href="https://fehey.com/">@海岛心hey</a> 盖戳 「sao」 。少年，此时不sao，更待何时！！！</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://lmm.elizen.me/images/2019/10/screenshot.jpg" alt="Breek v0.3.2 update 2020.4.12 " loading="lazy"></figure>
-<p>仓库下载：<a href="https://github.com/lmm214/gridea-theme-breek/">https://github.com/lmm214/gridea-theme-breek/</a></p>
-<h3 id="v032-updated-2020412">v0.3.2 updated 2020.4.12</h3>
-<ul>
-<li>修复搜索图标错位；</li>
-<li>修复豆瓣书单链接错误，密钥支持：客户端--主题自定义；</li>
-</ul>
-<h3 id="v031-updated-2020316">v0.3.1 updated 2020.3.16</h3>
-<ul>
-<li>修复搜索bug <code>result-template.ejs</code> 内的 <code>site.customConfig.featureImage</code> 改为 <code>customConfig.featureImage</code> 即可。</li>
-</ul>
-<h3 id="v03-updated-2020222">v0.3 updated 2020.2.22</h3>
-<ol>
-<li>内置搜索功能，感谢 <a href="https://github.com/tangkaichuan/gridea-search">https://github.com/tangkaichuan/gridea-search</a> ;</li>
-<li>支持网页背景色、标签背景色、头部页脚logo、默认缩略图自定义，客户端--主题自定义；</li>
-<li>内置 <a href="https://immmmm.com/post-show-douban-item">《文章内显示豆瓣条目》</a>，感谢 <a href="https://mufeng.me/">@mufeng</a> ；</li>
-<li>修复关闭评论还有白色框显示，感谢 <a href="https://richardguyao.github.io/">@richardgu</a> ;</li>
-</ol>
-<h3 id="v02-updated-202012">v0.2 updated 2020.1.2</h3>
-<ol>
-<li>内置 <code>friends.ejs</code> ，客户端--主题自定义；</li>
-<li>内置 <code>movies.ejs</code> 和 <code>books.ejs</code>，secret 可以在前往 https://bm.weajs.com/ 注册即可获取。</li>
-<li>添加置顶文章特定样式。</li>
-</ol>
-<h3 id="使用不完全指南">使用不完全指南</h3>
-<p>1.缩略图显示逻辑：如果有设置封面图使用，或者有设置标签使用标签的slug的图片（实现特定一类标签的默认图），或啥也没设置使用默认jpg。相关代码如下</p>
-<pre><code class="language-javascript">&lt;% if (post.feature) { %&gt;&lt;%= post.feature %&gt;&lt;% } else if (post.tags[0]) { %&gt;&lt;%= themeConfig.domain %&gt;/media/images/&lt;%= post.tags[0].slug %&gt;.jpg&lt;% } else { %&gt;&lt;%= themeConfig.domain %&gt;/media/images/gridea.jpg&lt;%} %&gt;
-</code></pre>
-<p>2.首页日志的两种样式有日志内的 <code>more</code> 标签决定，有则会显示内容摘要的样式，没有more标签显示的仅图片和标题。</p>
-<p>3.客户端内菜单的“首页”条目可删除，主题模板自带，为了高亮首页。相关代码：</p>
-<pre><code class="language-html">&lt;% if (site.isHomepage) { %&gt;
-	&lt;li class=&quot;current-menu-item&quot;&gt;&lt;a href=&quot;&lt;%= themeConfig.domain %&gt;&quot; class=&quot;menu&quot;&gt;首页&lt;/a&gt;&lt;/li&gt;
-&lt;% } else{ %&gt;
-	&lt;li class=&quot;&quot;&gt;&lt;a href=&quot;&lt;%= themeConfig.domain %&gt;&quot; class=&quot;menu&quot;&gt;首页&lt;/a&gt;&lt;/li&gt;
-&lt;%} %&gt;
-</code></pre>
-<p>4.日志内多照片瀑布流，如以下格式，注意保持同一行：</p>
-<pre><code class="language-html">&lt;photos&gt;![](https://lmm.elizen.me/images/2019/10/wl-1.jpg)![](https://lmm.elizen.me/images/2019/10/wl-3.jpg)![](https://lmm.elizen.me/images/2019/10/wl-4.jpg)![](https://lmm.elizen.me/images/2019/10/wl-5.jpeg)&lt;/photos&gt;
-</code></pre>
-<p><photos><img src="https://lmm.elizen.me/images/2019/10/hl-1.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-2.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-3.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-4.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-6.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-7.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-8.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-9.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-10.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-11.jpeg" alt="" loading="lazy"><img src="https://lmm.elizen.me/images/2019/10/hl-12.jpeg" alt="" loading="lazy"></photos></p>
-<h3 id="硬折腾模板记录">硬折腾模板记录</h3>
-<p>1.适配日志标签有或没有，有一个或者多个。限制仅输出一个标签或不显示。</p>
-<pre><code class="language-html">&lt;% if (post.tags[0]) { %&gt;
-    &lt;div class=&quot;tags absolute&quot;&gt;
-        &lt;a href=&quot;&lt;%= post.tags[0].link %&gt;&quot; class=&quot;ctag ctag-&lt;%= postIndex%&gt; ctag-&lt;%= post.tags[0].slug %&gt;&quot;&gt;&lt;%= post.tags[0].name %&gt;&lt;/a&gt;
-    &lt;/div&gt;
-&lt;% }; %&gt;
-</code></pre>
-<p>2.预设标签云默认背景色，通过 tagindex 实现。</p>
-<pre><code class="language-html">&lt;% site.tags.forEach(function(tag, tagIndex) { %&gt;
-    &lt;a href=&quot;&lt;%= tag.link %&gt;&quot; class=&quot;ctag ctag-&lt;%= tagIndex %&gt; ctag-&lt;%= tag.slug %&gt;&quot; aria-label=&quot;&quot;&gt;&lt;%= tag.name %&gt;&lt;/a&gt;
-&lt;% }); %&gt;
-</code></pre>
-<p>3.预设首页两种样式，以 more 标签为判断。</p>
-<pre><code class="language-html">&lt;% if ( !post.abstract ) { %&gt;
-    ……
-&lt;% }); %&gt;
-</code></pre>
-<h3 id="感谢">感谢</h3>
-<p>集颜值与功能于一身的 Gridea！！</p>
-<h3 id="欢迎打赏">欢迎打赏</h3>
-<figure>
-    <img src="https://lmm.elizen.me/wx.jpg" alt="微信打赏" />
-    <figcaption>微信打赏</figcaption>
-</figure>
 ]]></content>
     </entry>
 </feed>
