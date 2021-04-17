@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://i.immmmm.com</id>
     <title>林小沐</title>
-    <updated>2021-04-07T13:11:58.006Z</updated>
+    <updated>2021-04-17T13:35:30.145Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://i.immmmm.com"/>
     <link rel="self" href="https://i.immmmm.com/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://i.immmmm.com/images/avatar.png</logo>
     <icon>https://i.immmmm.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 林小沐</rights>
+    <entry>
+        <title type="html"><![CDATA[在“院士中心”种颗花椰菜]]></title>
+        <id>https://i.immmmm.com/member-center-2021/</id>
+        <link href="https://i.immmmm.com/member-center-2021/">
+        </link>
+        <updated>2021-04-17T12:06:40.000Z</updated>
+        <summary type="html"><![CDATA[<p>朋友圈“网红”地，看定位就在东钱湖小普陀，可想来想去那块地方都是些老房子，还有这么日剧式“大树下长条椅”的场景。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>朋友圈“网红”地，看定位就在东钱湖小普陀，可想来想去那块地方都是些老房子，还有这么日剧式“大树下长条椅”的场景。</p>
+<!-- more -->
+<p><photos><img src="https://lmm.elizen.me/images/2021/04/ys-1.jpg" alt="ys-1" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-2.jpg" alt="ys-2" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-3.jpg" alt="ys-3" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-4.jpg" alt="ys-4" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-5.jpg" alt="ys-5" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-6.jpg" alt="ys-6" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-7.jpg" alt="ys-7" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-8.jpg" alt="ys-8" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-9.jpg" alt="ys-9" loading="lazy"><img src="https://lmm.elizen.me/images/2021/04/ys-10.jpg" alt="ys-10" loading="lazy"></photos></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[人间最美四月天]]></title>
         <id>https://i.immmmm.com/hangzhou-2021/</id>
@@ -504,26 +517,6 @@ $('.post-excerpt a:not(:has(img)),.post-content a:not(:has(img)),.author-name a'
     if ( this_href != replace_href &amp;&amp; location_href != replace_href){$(this).attr('target','_blank');}
 });
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gridea Theme Puti]]></title>
-        <id>https://i.immmmm.com/gridea-theme-puti/</id>
-        <link href="https://i.immmmm.com/gridea-theme-puti/">
-        </link>
-        <updated>2019-11-26T13:28:06.000Z</updated>
-        <summary type="html"><![CDATA[<p>欢迎小伙伴 <a href="https://chat.elizen.me/">@Elizen</a> 入伙，同款主题折腾分享之。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>欢迎小伙伴 <a href="https://chat.elizen.me/">@Elizen</a> 入伙，同款主题折腾分享之。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://lmm.elizen.me/images/2019/11/puti.png" alt="Puti 0.0.1" loading="lazy"></figure>
-<p>仓库下载：<a href="https://github.com/lmm214/gridea-theme-puti">https://github.com/lmm214/gridea-theme-puti</a></p>
-<h3 id="说明">说明</h3>
-<ul>
-<li>logo 默认使用了 svg ，需自行替换；</li>
-<li>社交图标和评论到 Gridea 客户端中修改：主题--自定义配置。</li>
-<li>感谢主题原作者 CaiCai。🤘</li>
-</ul>
 ]]></content>
     </entry>
 </feed>
