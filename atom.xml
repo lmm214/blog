@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://i.immmmm.com</id>
     <title>林小沐</title>
-    <updated>2021-04-17T14:36:06.995Z</updated>
+    <updated>2021-06-19T15:12:30.060Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://i.immmmm.com"/>
     <link rel="self" href="https://i.immmmm.com/atom.xml"/>
@@ -10,6 +10,21 @@
     <logo>https://i.immmmm.com/images/avatar.png</logo>
     <icon>https://i.immmmm.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 林小沐</rights>
+    <entry>
+        <title type="html"><![CDATA[人生第一场]]></title>
+        <id>https://i.immmmm.com/first-movie-life/</id>
+        <link href="https://i.immmmm.com/first-movie-life/">
+        </link>
+        <updated>2021-06-05T12:04:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>看了《哆啦A梦：与梦同行2》，内容无趣，场馆通风不畅，到家后臭小子连晚饭都没吃，说头疼，低烧一晚！从此对电影留下阴影……</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>看了《哆啦A梦：与梦同行2》，内容无趣，场馆通风不畅，到家后臭小子连晚饭都没吃，说头疼，低烧一晚！从此对电影留下阴影……</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://lmm.elizen.me/images/2021/06/dy-3.jpeg" alt="dy-3" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://lmm.elizen.me/images/2021/06/dy-2.jpeg" alt="dy-2" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://lmm.elizen.me/images/2021/06/dy-1.jpeg" alt="dy-1" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[在“院士中心”种颗花椰菜]]></title>
         <id>https://i.immmmm.com/member-center-2021/</id>
@@ -404,119 +419,6 @@
 </code></pre>
 <h3 id="结语">结语</h3>
 <p>1、2、3，折腾起～</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gridea 主题常用代码片段]]></title>
-        <id>https://i.immmmm.com/gridea-template-code/</id>
-        <link href="https://i.immmmm.com/gridea-template-code/">
-        </link>
-        <updated>2019-12-16T07:14:17.000Z</updated>
-        <summary type="html"><![CDATA[<p>20200313 注：后续更新转移至 <a href="https://immmmm.com/gridea-template-code/">https://immmmm.com/gridea-template-code/</a></p>
-<h3 id="全站-site">全站 Site</h3>
-<p>首页：<code>themeConfig.domain</code><br>
-站点名：<code>themeConfig.siteName</code><br>
-站点描述：<code>themeConfig.siteDescription</code><br>
-全站文章数：<code>site.posts.length</code><br>
-全站标签数：<code>site.tags.length</code></p>
-]]></summary>
-        <content type="html"><![CDATA[<p>20200313 注：后续更新转移至 <a href="https://immmmm.com/gridea-template-code/">https://immmmm.com/gridea-template-code/</a></p>
-<h3 id="全站-site">全站 Site</h3>
-<p>首页：<code>themeConfig.domain</code><br>
-站点名：<code>themeConfig.siteName</code><br>
-站点描述：<code>themeConfig.siteDescription</code><br>
-全站文章数：<code>site.posts.length</code><br>
-全站标签数：<code>site.tags.length</code></p>
-<!-- more -->
-<pre><code class="language-js">共 &lt;%= site.posts.length %&gt; 篇日志
-</code></pre>
-<h3 id="菜单">菜单</h3>
-<pre><code class="language-js">&lt;% menus.forEach(function(menu) { %&gt;
-    &lt;a href=&quot;&lt;%= menu.link %&gt;&quot;&gt;&lt;%= menu.name %&gt;&lt;/a&gt;
-&lt;% }); %&gt;
-</code></pre>
-<h3 id="网页标题优化-sitetitle">网页标题优化 siteTitle</h3>
-<pre><code class="language-js">&lt;%- include('./includes/head', { siteTitle: themeConfig.siteName }) %&gt;
-&lt;%- include('./includes/head', { siteTitle: `${post.title} | ${themeConfig.siteName}` }) %&gt;
-&lt;%- include('./includes/head', { siteTitle: `${tag.name} | ${themeConfig.siteName}` }) %&gt;
-&lt;%- include('./includes/head', { siteTitle: `文章归档 | ${themeConfig.siteName}` }) %&gt;
-&lt;%- include('./includes/head', { siteTitle: `标签列表 | ${themeConfig.siteName}` }) %&gt;
-</code></pre>
-<h3 id="文章-post">文章 Post</h3>
-<p>标题：<code>post.title</code><br>
-链接：<code>post.link</code></p>
-<p>文章标题：</p>
-<pre><code class="language-js">&lt;a href=&quot;&lt;%= post.link %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;
-</code></pre>
-<p>文章SEO</p>
-<pre><code class="language-html">&lt;meta name=&quot;description&quot; content=&quot;&lt;%- post.description %&gt;&quot; /&gt;
-&lt;meta name=&quot;keywords&quot; content=&quot;&lt;%- post.tags.map(tag =&gt; tag.name).join(',') %&gt;&quot; /&gt;
-</code></pre>
-<p>发布时间：<code>post.dateFormat</code><br>
-显示相对时间：</p>
-<pre><code class="language-js">&lt;%= site.utils.moment(post.date).locale('zh-cn').fromNow() %&gt;
-</code></pre>
-<p>标签名：<code>post.tags</code><br>
-文章阅读时间：<code>stats.text</code> //3 min read<br>
-文章字数：<code>stats.words</code> //3000</p>
-<p>显示全部标签名，多个用顿号分开：</p>
-<pre><code class="language-js">&lt;% post.tags.forEach(function(tag, index) { %&gt;
-    &lt;a href=&quot;&lt;%= tag.link %&gt;&quot;&gt;
-        &lt;%= tag.name %&gt;
-        &lt;% if (index !== post.tags.length - 1) { %&gt;
-            、
-        &lt;% } %&gt;
-    &lt;/a&gt;
-&lt;% }); %&gt;
-</code></pre>
-<p>显示单个标签名：</p>
-<pre><code class="language-js">&lt;% if (post.tags[0]) { %&gt;
-    &lt;a href=&quot;&lt;%= post.tags[0].link %&gt;&quot;&gt;&lt;%= post.tags[0].name %&gt;&lt;/a&gt;
-&lt;% }; %&gt;
-</code></pre>
-<p>封面图：<code>post.feature</code></p>
-<pre><code class="language-js">&lt;% if (themeConfig.showFeatureImage &amp;&amp; post.feature) { %&gt;
-    &lt;img src=&quot;&lt;%= post.feature %&gt;&quot;&gt;
-&lt;% } %&gt;
-</code></pre>
-<p>文章摘要：<code>post.abstract</code> 显示文章 <code>&lt;!--more--&gt;</code> 前的内容<br>
-文章全文：<code>post.content</code></p>
-<pre><code class="language-js">&lt;% if (post.abstract) { %&gt;
-    &lt;%- post.abstract %&gt;
-    &lt;a href=&quot;&lt;%= post.link %&gt;&quot;&gt;阅读全文&lt;/a&gt;
-&lt;% }else{ %&gt;
-    &lt;%- post.content %&gt;
-    &lt;a href=&quot;&lt;%= post.link %&gt;#comments&quot;&gt;发表评论&lt;/a&gt;
-&lt;% } %&gt;
-</code></pre>
-<p>结合以上两者，如果有设置more标签，则显示部分和“阅读全文”链接，若无则全文显示并显示“发表评论”链接。</p>
-<h3 id="导航-pagination">导航 Pagination</h3>
-<p>上下篇日志：</p>
-<pre><code class="language-js">&lt;% if (post.prevPost) { %&gt;
-    &lt;a href=&quot;&lt;%= post.prevPost.link %&gt;&quot;&gt;&lt;%= post.prevPost.title %&gt;&lt;/a&gt;
-&lt;% } %&gt;
-&lt;% if (post.nextPost) { %&gt;
-    &lt;a href=&quot;&lt;%= post.nextPost.link %&gt;&quot;&gt;&lt;%= post.nextPost.title %&gt;&lt;/a&gt;
-&lt;% } %&gt;
-</code></pre>
-<p>文章列表：</p>
-<pre><code class="language-js">&lt;% if (pagination.prev) { %&gt;
-    &lt;a href=&quot;&lt;%= pagination.prev %&gt;&quot;&gt;上一页&lt;/a&gt;
-&lt;% } %&gt;
-&lt;% if (pagination.next) { %&gt;
-    &lt;a href=&quot;&lt;%= pagination.next %&gt;&quot;&gt;下一页&lt;/a&gt;
-&lt;% } %&gt;
-</code></pre>
-<h3 id="实用-jquery-代码">实用 jQuery 代码</h3>
-<pre><code class="language-js">//新窗口打开外链
-var parse_url = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;
-var location_href = window.location.href.replace(parse_url,'$3');
-$('.post-excerpt a:not(:has(img)),.post-content a:not(:has(img)),.author-name a').hover(function() {
-    var this_href = $(this).attr('href');
-    var replace_href = this_href.replace(parse_url,'$3');
-    if ( this_href != replace_href &amp;&amp; location_href != replace_href){$(this).attr('target','_blank');}
-});
-</code></pre>
 ]]></content>
     </entry>
 </feed>
