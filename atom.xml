@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://i.immmmm.com</id>
     <title>林小沐</title>
-    <updated>2021-06-19T15:12:30.060Z</updated>
+    <updated>2021-06-19T16:43:34.117Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://i.immmmm.com"/>
     <link rel="self" href="https://i.immmmm.com/atom.xml"/>
@@ -23,6 +23,19 @@
 <figure data-type="image" tabindex="1"><img src="https://lmm.elizen.me/images/2021/06/dy-3.jpeg" alt="dy-3" loading="lazy"></figure>
 <figure data-type="image" tabindex="2"><img src="https://lmm.elizen.me/images/2021/06/dy-2.jpeg" alt="dy-2" loading="lazy"></figure>
 <figure data-type="image" tabindex="3"><img src="https://lmm.elizen.me/images/2021/06/dy-1.jpeg" alt="dy-1" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Worker's Day Walker]]></title>
+        <id>https://i.immmmm.com/worker-day-walk/</id>
+        <link href="https://i.immmmm.com/worker-day-walk/">
+        </link>
+        <updated>2021-05-01T05:29:30.000Z</updated>
+        <summary type="html"><![CDATA[<p>劳动节，三江两岸、北仑红桥、东钱湖湿地，逛吃逛吃一日游！</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>劳动节，三江两岸、北仑红桥、东钱湖湿地，逛吃逛吃一日游！</p>
+<!-- more -->
+<p><photos><img src="https://lmm.elizen.me/images/2021/05/laodong-1.jpeg" alt="laodong-1" loading="lazy"><img src="https://lmm.elizen.me/images/2021/05/laodong-6.jpeg" alt="laodong-6" loading="lazy"><img src="https://lmm.elizen.me/images/2021/05/laodong-7.jpeg" alt="laodong-7" loading="lazy"><img src="https://lmm.elizen.me/images/2021/05/laodong-8.jpeg" alt="laodong-8" loading="lazy"><img src="https://lmm.elizen.me/images/2021/05/laodong-9.jpeg" alt="laodong-9" loading="lazy"><img src="https://lmm.elizen.me/images/2021/05/laodong-10.jpeg" alt="laodong-10" loading="lazy"><img src="https://lmm.elizen.me/images/2021/05/laodong-11.JPG" alt="laodong-11" loading="lazy"></photos></p>
 ]]></content>
     </entry>
     <entry>
@@ -319,106 +332,6 @@
     <img src="https://lmm.elizen.me/wx.jpg" alt="微信打赏" />
     <figcaption>微信打赏</figcaption>
 </figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[三步创建 Gridea 友情链接页]]></title>
-        <id>https://i.immmmm.com/gridea-templates-friends/</id>
-        <link href="https://i.immmmm.com/gridea-templates-friends/">
-        </link>
-        <updated>2020-01-02T12:46:57.000Z</updated>
-        <summary type="html"><![CDATA[<p>围观地址：<a href="https://i.immmmm.com/friends/">https://i.immmmm.com/friends/</a> （<a href="https://gridea.dev/docs/theme-custom.html#%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E9%85%8D%E7%BD%AE">官方教程</a>)</p>
-<p>注：以下方法基于 Gridea v0.9+ ，相关代码以内置主题 notes 为例。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>围观地址：<a href="https://i.immmmm.com/friends/">https://i.immmmm.com/friends/</a> （<a href="https://gridea.dev/docs/theme-custom.html#%E6%95%B0%E7%BB%84%E7%B1%BB%E5%9E%8B%E9%85%8D%E7%BD%AE">官方教程</a>)</p>
-<p>注：以下方法基于 Gridea v0.9+ ，相关代码以内置主题 notes 为例。</p>
-<!-- more -->
-<h3 id="一-添加自定义主题功能代码">一、添加自定义主题功能代码</h3>
-<figure data-type="image" tabindex="1"><img src="https://lmm.elizen.me/images/2020/01/my-friends-2.png" alt="友链客户端" loading="lazy"></figure>
-<p><code>themes/notes/config.json</code>，添加以下代码：</p>
-<pre><code class="language-js">//……
-//&quot;note&quot;: &quot;UA-xxxxxxxxx-x&quot;
-//}, 添加逗号！！！
-    {
-      &quot;name&quot;: &quot;friends&quot;,
-      &quot;label&quot;: &quot;友链&quot;,
-      &quot;group&quot;: &quot;友链&quot;,
-      &quot;type&quot;: &quot;array&quot;,
-      &quot;value&quot;: [],
-      &quot;arrayItems&quot;: [
-        { &quot;label&quot;: &quot;名称&quot;, &quot;name&quot;: &quot;siteName&quot;, &quot;type&quot;: &quot;input&quot;, &quot;value&quot;: &quot;&quot; },
-        { &quot;label&quot;: &quot;链接&quot;, &quot;name&quot;: &quot;siteLink&quot;, &quot;type&quot;: &quot;input&quot;, &quot;value&quot;: &quot;&quot; },
-        { &quot;label&quot;: &quot;Logo&quot;, &quot;name&quot;: &quot;siteLogo&quot;, &quot;type&quot;: &quot;picture-upload&quot;, &quot;value&quot;: &quot;&quot; },
-        { &quot;label&quot;: &quot;描述&quot;, &quot;name&quot;: &quot;description&quot;, &quot;type&quot;: &quot;textarea&quot;, &quot;value&quot;: &quot;&quot; }
-      ],
-      &quot;note&quot;: &quot;&quot;
-    }
-//  ]
-//}
-</code></pre>
-<p>保存，重启客户端，主题--自定义主题--友链。</p>
-<h3 id="二-创建自定义页面">二、创建自定义页面</h3>
-<p><code>themes/notes/templates/post.ejs</code> 复制并重命名为 <code>friends.ejs</code>，替换成如下代码：</p>
-<pre><code class="language-html">&lt;html&gt;
-  &lt;head&gt;
-    &lt;%- include('./includes/head', { siteTitle: `我的朋友们 | ${themeConfig.siteName}` }) %&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;div class=&quot;main&quot;&gt;
-      &lt;div class=&quot;main-content&quot;&gt;
-        &lt;%- include('./includes/header') %&gt;
-        &lt;div class=&quot;post-detail&quot;&gt;
-          &lt;article class=&quot;post&quot;&gt;
-            &lt;h2 class=&quot;post-title&quot;&gt;我的朋友们&lt;/h2&gt;
-
-            &lt;div class=&quot;post-content-wrapper&quot;&gt;
-              &lt;div class=&quot;post-content&quot;&gt;
-              &lt;% if (site.customConfig.friends) { %&gt;
-                &lt;% site.customConfig.friends.forEach(function(friend) { %&gt;
-                  &lt;div class=&quot;friend-box&quot;&gt;
-                    &lt;img class=&quot;friend-avatar&quot; src=&quot;&lt;%= friend.siteLogo %&gt;&quot;&gt;
-                    &lt;div class=&quot;flink-info&quot;&gt;
-                      &lt;a href=&quot;&lt;%= friend.siteLink %&gt;&quot; target=&quot;_blank&quot;&gt;&lt;%= friend.siteName %&gt;&lt;/a&gt;
-                      &lt;br/&gt;
-                      &lt;%= friend.description %&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;% }); %&gt;
-              &lt;% } %&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/article&gt;
-        &lt;/div&gt;
-
-        &lt;%- include('./includes/footer') %&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-<h3 id="三-添加样式代码">三、添加样式代码</h3>
-<figure data-type="image" tabindex="2"><img src="https://lmm.elizen.me/images/2020/01/my-friends-3.png" alt="友链效果" loading="lazy"></figure>
-<p><code>themes/notes/assets/styles/main.less</code>，添加以下代码：</p>
-<pre><code class="language-css">.friend-box {
-  float: left;
-  width: calc(50% - 20px);
-  margin: 15px 10px;
-  img.friend-avatar{
-    width: 70px;
-    height: 70px;
-    border-radius: 50% !important;
-    float: left;
-    margin:0 15px 0 0 !important;
-  }
-  .flink-info{
-    height:70px;
-    overflow: hidden;
-    line-height: 24px;
-  }
-}
-</code></pre>
-<h3 id="结语">结语</h3>
-<p>1、2、3，折腾起～</p>
 ]]></content>
     </entry>
 </feed>
